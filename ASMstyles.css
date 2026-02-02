@@ -546,3 +546,77 @@ body {
   color: rgb(255, 0, 0);
 }
 /*===========================mang xa hoi==================================*/
+
+/*===========================khung lớn======================*/
+/* ===== STORE BANNER ===== */
+.store-banner {
+  background: #ffe6ee;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.store-title {
+  font-size: 48px;
+  color: #ffe95c;
+  -webkit-text-stroke: 3px #1fc7b6;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+
+.store-content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* KHỐI TRÁI */
+.store-left {
+  background: #ff3f7f;
+  color: white;
+  padding: 25px 30px;
+  border-radius: 30px;
+  width: 420px;
+  text-align: left;
+  box-shadow: 0 8px 0 #e02a66;
+}
+
+.store-left h2 {
+  background: #1fc7b6;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.store-left ul {
+  list-style: none;
+}
+
+.store-left li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* KHỐI PHẢI */
+.store-right {
+  background: #2ed3c6;
+  color: white;
+  padding: 25px 30px;
+  border-radius: 30px;
+  width: 320px;
+  box-shadow: 0 8px 0 #1ab2a6;
+}
+
+.store-right h2 {
+  background: #ff3f7f;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.store-right p {
+  font-size: 18px;
+  margin: 10px 0;
+}
